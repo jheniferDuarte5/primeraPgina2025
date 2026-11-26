@@ -1,85 +1,971 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFeed Avícola | Proyecto UPC — Tecnología Sostenible</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-  <a href="#" style="text-decoration: none ;">
-    <img src="img/boton_inicio.png" width="40px" alt="imagen botón inicio">
-  </a>
-   <a href="paginas/servicios.html" style="text-decoration: none ;" >
-    <img src="img/boton_servicios.png" width="40px" alt="imagen botón inicio">
-  </a>
-   <a href="paginas/conctato.html" style="text-decoration: none ;" >
-    <img src="img/boton_contacto.png" width="40px" alt="imagen botón inicio">
-      
-  </a> 
-    <a href= "https://api.whatsapp.com/send/?phone=573122794815&text=Hola%2C+necesito+informaci%C3%B3n" style="text-decoration: none;">
-      
-      <img src="img/w.png" width ="40px"alt="">
-    </a>
+    <header>
+        <a href="#top" class="logo-nav">Eco<span>Feed</span> Avícola <span class="upc-tag">PROYECTO UPC</span></a>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#diagnostico">Diagnóstico</a></li>
+                <li><a href="#arquitectura">Arquitectura</a></li>
+                <li><a href="#circular">Economía Circular</a></li>
+                <li><a href="#impacto">Impacto</a></li>
+                <li><a href="#sistema">Panel Operativo</a></li>
+            </ul>
+        </nav>
+    </header>
 
-     <!-- para video -->
-     <br>
-     
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/w_oCHkCjueQ?si=OQJvDgKEZcp9tr8b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section id="top" class="hero">
+        <img src="logo.png" alt="Logo EcoFeed Avícola" onerror="this.style.display='none'">
+        <div class="subtitulo-upc">Proyecto UPC</div>
+        <h1>EcoFeed Avícola</h1>
+        <div class="lead">Tecnología para una avicultura más sostenible</div>
+        <p>
+            Propuesta integral de automatización, monitoreo y valorización de recursos en galpones avícolas. Controla • Optimiza • Cuida el Planeta.
+        </p>
+        <div class="badge-provisional">
+            Sistema web de registro, control y monitoreo — Semillero UPC
+        </div>
+    </section>
 
+    <section id="diagnostico" class="diagnostico-bg">
+        <div class="section-title">
+            <span class="kicker">Diagnóstico del galpón</span>
+            <h2>Residuos y pérdidas en el galpón</h2>
+            <div class="linea"></div>
+        </div>
 
-    <!-- para audio y video local -->
-    <br>
-    <audio src="audios/audio2.mp3" controls> </audio>
-     <br>
-    <video src="videos/video1.mp4" width="500x" controls></video>
+        <div class="diagnostico-grid">
+            <div class="diag-card">
+                <h3>Excremento acumulado</h3>
+                <p>Manejo deficiente de gallinaza que genera amoníaco y focos de humedad.</p>
+            </div>
+            <div class="diag-card">
+                <h3>Desperdicio de purina</h3>
+                <p>Pérdidas continuas por derrame mecánico y sobrellenado de comederos.</p>
+            </div>
+            <div class="diag-card">
+                <h3>Almacenamiento inadecuado</h3>
+                <p>Deterioro del alimento por cambios de temperatura y exceso de humedad.</p>
+            </div>
+            <div class="diag-card">
+                <h3>Costales de lona plástica</h3>
+                <p>Acumulación de empaques sintéticos sin circuito claro de desecho.</p>
+            </div>
+        </div>
 
-	<p> esto es un HTML básico </p>
+        <div class="residuos-container">
+            <div>
+                <h3 class="subtitulo-lista">Residuos generados en galpones avícolas</h3>
+                <ul class="lista-residuos">
+                    <li>
+                        <strong>1. Desperdicio de alimento concentrado</strong>
+                        Purina que cae al suelo, queda fuera de los comederos o no es consumida por las aves.
+                    </li>
+                    <li>
+                        <strong>2. Cama usada del galpón</strong>
+                        Viruta, cascarilla de arroz o paja mezclada con excrementos, humedad y restos de alimento.
+                    </li>
+                    <li>
+                        <strong>3. Empaques de alimento</strong>
+                        Sacos de plástico o polipropileno usados para transportar y almacenar purina.
+                    </li>
+                    <li>
+                        <strong>4. Alimento deteriorado</strong>
+                        Purina que pierde condiciones adecuadas por humedad, mal almacenamiento o contaminación.
+                    </li>
+                    <li>
+                        <strong>5. Excrementos de las aves</strong>
+                        Residuos orgánicos acumulados en la cama que requieren manejo adecuado.
+                    </li>
+                </ul>
+            </div>
 
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-    sit, amet consectetur, adipisicing elit. Libero quis maxime, molestiae amet expedita, ipsam
-    explicabo, temporibus aut dolor magni sint modi similique laborum, quam assumenda corporis
-    harum animi mollitia.
-  </p>
+            <div class="enfoque-box">
+                <h3>Enfoque prioritario de EcoFeed Avícola</h3>
+                <p>El proyecto concentra su control en tres ejes principales:</p>
+                <div class="enfoque-item">
+                    <strong>1. Desperdicio de purina</strong>
+                    Registrar y detectar posibles pérdidas de alimento.
+                </div>
+                <div class="enfoque-item">
+                    <strong>2. Alimento deteriorado</strong>
+                    Llevar control de existencias y condiciones de almacenamiento.
+                </div>
+                <div class="enfoque-item">
+                    <strong>3. Restos de alimento mezclados con la cama</strong>
+                    Registrar pérdidas observadas durante la limpieza del galpón.
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <hr>
+    <section id="arquitectura">
+        <div class="section-title">
+            <span class="kicker">Arquitectura propuesta</span>
+            <h2>Monitoreo inteligente de la purina</h2>
+            <div class="linea"></div>
+        </div>
 
-  <!-- Cursiva y negrita: sin/ con semántica -->
-  <h2>Ejemplos de cursiva y negrita</h2>
+        <div class="arquitectura-grid">
+            <div class="arq-card">
+                <span class="arq-paso">CAPA 1 • SENSADO</span>
+                <h3>Sensores en tolva y comedero</h3>
+                <p>Celdas de carga y ultrasonido miden peso y nivel en tiempo real.</p>
+            </div>
+            <div class="arq-card">
+                <span class="arq-paso">CAPA 2 • MICROCONTROLADOR</span>
+                <h3>ESP32 / Arduino</h3>
+                <p>El microcontrolador digitaliza variables y transmite datos vía local o WiFi.</p>
+            </div>
+            <div class="arq-card">
+                <span class="arq-paso">CAPA 3 • SOFTWARE</span>
+                <h3>Software de control</h3>
+                <p>Registro continuo de almacenamiento, suministro y consumo; alertas de desabastecimiento y prevención de mermas.</p>
+            </div>
+        </div>
 
-   <h1>Título de peso semántico (H1)</h1>
+        <div class="pasos-grid">
+            <div class="paso-card">
+                <div class="paso-num">1</div>
+                <h4>Control de purina</h4>
+                <p>Entrada a bodega, suministro diario e inventario automático.</p>
+            </div>
+            <div class="paso-card">
+                <div class="paso-num">2</div>
+                <h4>Monitoreo de consumo</h4>
+                <p>Cálculo de consumo real de las aves a partir de suministro y sobrante.</p>
+            </div>
+            <div class="paso-card">
+                <div class="paso-num">3</div>
+                <h4>Detección de desperdicios</h4>
+                <p>Análisis de alimento derramado fuera de comederos y alertas tempranas.</p>
+            </div>
+            <div class="paso-card">
+                <div class="paso-num">4</div>
+                <h4>Gestión de residuos</h4>
+                <p>Control de empaques, cama usada, gallinaza y purina deteriorada.</p>
+            </div>
+            <div class="paso-card">
+                <div class="paso-num">5</div>
+                <h4>Reportes y alertas</h4>
+                <p>Consolidado gráfico y avisos automáticos para atención oportuna.</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Subtítulos -->
-  <h2>Título H2</h2>
-  <h3>Etiquetas de texto H3</h3>
-  <h4>Etiquetas de texto H4</h4>
-  <h5>Etiquetas de texto H5</h5>
+    <section id="circular" class="circular-bg">
+        <div class="section-title">
+            <span class="kicker">Economía circular</span>
+            <h2>De residuos a recursos</h2>
+            <div class="linea"></div>
+        </div>
 
-  <hr>
+        <div class="circular-grid">
+            <div class="circular-card">
+                <h3>Compostaje de gallinaza</h3>
+                <p>Estiércol como abono orgánico para cultivos locales.</p>
+            </div>
+            <div class="circular-card">
+                <h3>Control de suministro</h3>
+                <p>Programar raciones para evitar derrames y descomposición en comederos.</p>
+            </div>
+            <div class="circular-card">
+                <h3>Monitoreo de bodega</h3>
+                <p>Vigilar humedad y niveles en silos para preservar la purina.</p>
+            </div>
+            <div class="circular-card">
+                <h3>Reciclaje de costales</h3>
+                <p>Recoger y clasificar lonas plásticas para empresas recicladoras.</p>
+            </div>
+        </div>
+    </section>
 
-   <!-- ETIQUETAS BASICAS-->
-   <h4> funcion matematica</h4>
-  
-   <p> <b> F <sub> (X) </sub> </b> = 2X <sup> 3 </sup> + 3X  <sup> 2 </sup> + 2X +5 </p>
+    <section id="impacto">
+        <div class="section-title">
+            <span class="kicker">Impacto estimado</span>
+            <h2>Resultados esperados y sostenibilidad</h2>
+            <div class="linea"></div>
+        </div>
 
-   <!-- TEXTO CON FORMATOS -->
+        <div class="impacto-grid">
+            <div class="card">
+                <h3>Menos residuos</h3>
+                <p>Reducir el desperdicio de alimento y aprovechar los subproductos del galpón.</p>
+            </div>
+            <div class="card">
+                <h3>Menos pérdidas económicas</h3>
+                <p>Usar mejor el insumo más costoso mediante monitoreo y dosificación precisa.</p>
+            </div>
+            <div class="card">
+                <h3>Avicultura sostenible</h3>
+                <p>Mejores condiciones sanitarias internas y menor huella ambiental rural.</p>
+            </div>
+            <div class="card">
+                <h3>1. Desperdicio de materias primas</h3>
+                <p>La purina contiene maíz y soya, cuya producción demanda tierra, agua, fertilizantes y energía que se pierden al desperdiciarse.</p>
+            </div>
+            <div class="card">
+                <h3>2. Contaminación del suelo</h3>
+                <p>El alimento caído y acumulado se mezcla con excrementos, humedad y residuos orgánicos, deteriorando la higiene del galpón.</p>
+            </div>
+            <div class="card">
+                <h3>3. Contaminación del agua</h3>
+                <p>Restos descompuestos y nutrientes pueden llegar a suelos o fuentes de agua por escorrentía, aumentando materia orgánica y nutrientes.</p>
+            </div>
+            <div class="card">
+                <h3>4. Residuos orgánicos y 5. Huella de carbono</h3>
+                <p>Genera residuos que atraen plagas y malos olores, además de desperdiciar energía y emisiones asociadas a producir, procesar y transportar el alimento.</p>
+            </div>
+        </div>
+    </section>
 
-   <p> jhenifer <small> marquez  </small> <i> <b> texto pequeño  </b> </i> </p>
-   <p> <mark> Texto marcado </mark> </p>
-   <p> <ins> Texto subrayado </ins> </p>
-   <p> <del> texto tachado </del> </p>
-   
+    <!-- PANEL OPERATIVO: LAS 5 FUNCIONES DE ECOFEED AVÍCOLA -->
+    <section id="sistema" class="sistema-section">
+        <div class="section-title">
+            <span class="kicker">Sistema de gestión del galpón</span>
+            <h2>Panel operativo — 5 funciones de EcoFeed Avícola</h2>
+            <div class="linea"></div>
+        </div>
 
-   <!-- LINK-->
-   <a href = "paginas/servicios.html"> Link pagina de servicios </a> 
-   <a href = "paginas/conctato.html"> Link pagina de conctato </a> 
+        <!-- Barra de acceso del encargado -->
+        <div class="encargado-bar">
+            <div class="encargado-info">
+                <label for="nombreEncargado">Encargado de turno:</label>
+                <input type="text" id="nombreEncargado" placeholder="Escribe el nombre del encargado..." value="Encargado Galpón 1">
+            </div>
+            <div class="inventario-pill">
+                Inventario actual en bodega: <strong id="inventarioDisplay">0.0 kg</strong>
+            </div>
+        </div>
 
+        <!-- Navegación por pestañas de las 5 funciones -->
+        <div class="tabs-nav" role="tablist">
+            <button type="button" class="tab-btn active" onclick="cambiarTab('func1', this)">1. Control de purina</button>
+            <button type="button" class="tab-btn" onclick="cambiarTab('func2', this)">2. Monitoreo de consumo</button>
+            <button type="button" class="tab-btn" onclick="cambiarTab('func3', this)">3. Detección de desperdicios</button>
+            <button type="button" class="tab-btn" onclick="cambiarTab('func4', this)">4. Gestión de residuos</button>
+            <button type="button" class="tab-btn" onclick="cambiarTab('func5', this)">5. Reportes y alertas <span id="badgeAlertas" class="badge-alerta-tab">0</span></button>
+        </div>
 
+        <!-- FUNCIÓN 1: CONTROL DE PURINA -->
+        <div id="func1" class="tab-panel active">
+            <div class="func-header">
+                <h3>1. Control de purina e inventario</h3>
+                <p>Registra los ingresos de bultos/kilos al galpón y las salidas diarias de suministro. El inventario se actualiza automáticamente.</p>
+            </div>
+
+            <div class="dos-columnas">
+                <div class="modulo-card">
+                    <h4>Registrar movimiento de purina</h4>
+                    <div class="form-group">
+                        <label for="f1Fecha">Fecha:</label>
+                        <input type="date" id="f1Fecha">
+                    </div>
+                    <div class="form-group">
+                        <label for="f1Tipo">Tipo de movimiento:</label>
+                        <select id="f1Tipo">
+                            <option value="entrada">Ingreso de purina al galpón (+)</option>
+                            <option value="salida">Suministro diario a comederos (-)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="f1Cantidad">Cantidad (kg):</label>
+                        <input type="number" id="f1Cantidad" placeholder="Ej: 200" step="0.1" min="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label for="f1Nota">Observación / Lote:</label>
+                        <input type="text" id="f1Nota" placeholder="Ej: Bultos de inicio / Ración mañana">
+                    </div>
+                    <button type="button" class="btn-accion" onclick="registrarMovimientoPurina()">Guardar movimiento</button>
+                    <div id="f1Mensaje" class="mensaje-feedback"></div>
+                </div>
+
+                <div class="modulo-card">
+                    <h4>Estado de inventario e historial</h4>
+                    <div class="kpi-mini-grid">
+                        <div class="kpi-mini">
+                            <span>Total ingresado</span>
+                            <strong id="f1TotalIngresado">0.0 kg</strong>
+                        </div>
+                        <div class="kpi-mini">
+                            <span>Total suministrado</span>
+                            <strong id="f1TotalSuministrado">0.0 kg</strong>
+                        </div>
+                        <div class="kpi-mini destacado">
+                            <span>Disponible</span>
+                            <strong id="f1Disponible">0.0 kg</strong>
+                        </div>
+                    </div>
+
+                    <div class="tabla-responsive">
+                        <table class="tabla-datos">
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Movimiento</th>
+                                    <th>Cantidad</th>
+                                    <th>Encargado</th>
+                                </tr>
+                            </thead>
+                            <tbody id="f1TablaBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FUNCIÓN 2: MONITOREO DE CONSUMO -->
+        <div id="func2" class="tab-panel">
+            <div class="func-header">
+                <h3>2. Monitoreo de consumo de las aves</h3>
+                <p>Ingresa el alimento suministrado y el sobrante medido en comederos para calcular el consumo real estimado y guardar su historial.</p>
+            </div>
+
+            <div class="dos-columnas">
+                <div class="modulo-card">
+                    <h4>Registrar medición de consumo</h4>
+                    <div class="form-group">
+                        <label for="f2Fecha">Fecha:</label>
+                        <input type="date" id="f2Fecha">
+                    </div>
+                    <div class="form-group">
+                        <label for="f2Suministrado">Alimento suministrado (kg):</label>
+                        <input type="number" id="f2Suministrado" placeholder="Ej: 120" step="0.1" min="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label for="f2Sobrante">Alimento sobrante medido (kg):</label>
+                        <input type="number" id="f2Sobrante" placeholder="Ej: 8.5" step="0.1" min="0">
+                    </div>
+                    <button type="button" class="btn-accion" onclick="registrarConsumo()">Calcular y guardar consumo</button>
+                    <div id="f2Mensaje" class="mensaje-feedback"></div>
+                </div>
+
+                <div class="modulo-card">
+                    <h4>Historial de consumo estimado</h4>
+                    <div class="kpi-mini-grid">
+                        <div class="kpi-mini">
+                            <span>Consumo acumulado</span>
+                            <strong id="f2ConsumoTotal">0.0 kg</strong>
+                        </div>
+                        <div class="kpi-mini destacado">
+                            <span>Eficiencia promedio</span>
+                            <strong id="f2EficienciaProm">0%</strong>
+                        </div>
+                    </div>
+
+                    <div class="tabla-responsive">
+                        <table class="tabla-datos">
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Suministrado</th>
+                                    <th>Sobrante</th>
+                                    <th>Consumo est.</th>
+                                    <th>% Aprovech.</th>
+                                </tr>
+                            </thead>
+                            <tbody id="f2TablaBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FUNCIÓN 3: DETECCIÓN DE DESPERDICIOS -->
+        <div id="func3" class="tab-panel">
+            <div class="func-header">
+                <h3>3. Detección de desperdicios en el galpón</h3>
+                <p>Registra la purina derramada en el suelo o fuera de los comederos. El sistema analiza el porcentaje de pérdida y emite alerta si supera el umbral crítico (5%).</p>
+            </div>
+
+            <div class="dos-columnas">
+                <div class="modulo-card">
+                    <h4>Registrar purina derramada / perdida</h4>
+                    <div class="form-group">
+                        <label for="f3Fecha">Fecha:</label>
+                        <input type="date" id="f3Fecha">
+                    </div>
+                    <div class="form-group">
+                        <label for="f3Racion">Ración servida en el turno (kg):</label>
+                        <input type="number" id="f3Racion" placeholder="Ej: 100" step="0.1" min="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label for="f3Derramada">Purina caída al suelo / fuera de comederos (kg):</label>
+                        <input type="number" id="f3Derramada" placeholder="Ej: 6.5" step="0.1" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="f3Causa">Causa observada:</label>
+                        <select id="f3Causa">
+                            <option value="Sobrellenado de comedero">Sobrellenado de comedero</option>
+                            <option value="Derrame mecánico / altura mal calibrada">Derrame mecánico / altura mal calibrada</option>
+                            <option value="Aves escarbando alimento">Aves escarbando alimento</option>
+                            <option value="Rotura de empaque o tolva">Rotura de empaque o tolva</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn-accion" onclick="registrarDesperdicio()">Analizar desperdicio</button>
+                    <div id="f3Mensaje" class="mensaje-feedback"></div>
+                </div>
+
+                <div class="modulo-card">
+                    <h4>Análisis de pérdidas registradas</h4>
+                    <div class="kpi-mini-grid">
+                        <div class="kpi-mini">
+                            <span>Total desperdiciado</span>
+                            <strong id="f3TotalDesperdicio">0.0 kg</strong>
+                        </div>
+                        <div class="kpi-mini alerta-kpi">
+                            <span>Eventos críticos (&gt;5%)</span>
+                            <strong id="f3EventosCriticos">0</strong>
+                        </div>
+                    </div>
+
+                    <div class="tabla-responsive">
+                        <table class="tabla-datos">
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Derrame</th>
+                                    <th>% Pérdida</th>
+                                    <th>Causa</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody id="f3TablaBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FUNCIÓN 4: GESTIÓN DE RESIDUOS -->
+        <div id="func4" class="tab-panel">
+            <div class="func-header">
+                <h3>4. Gestión y trazabilidad de residuos</h3>
+                <p>Lleva el control de recolección de empaques plásticos, cama usada, excrementos (gallinaza) y alimento deteriorado con fecha y destino.</p>
+            </div>
+
+            <div class="dos-columnas">
+                <div class="modulo-card">
+                    <h4>Registrar recolección de residuo</h4>
+                    <div class="form-group">
+                        <label for="f4Tipo">Tipo de residuo:</label>
+                        <select id="f4Tipo">
+                            <option value="Empaques (costales plásticos)">Empaques (costales de lona plástica)</option>
+                            <option value="Cama usada del galpón">Cama usada del galpón</option>
+                            <option value="Excrementos (gallinaza)">Excrementos (gallinaza)</option>
+                            <option value="Alimento deteriorado">Alimento deteriorado por humedad</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="f4Cantidad">Cantidad recolectada (kg o unidades):</label>
+                        <input type="number" id="f4Cantidad" placeholder="Ej: 45" step="0.1" min="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label for="f4Unidad">Unidad de medida:</label>
+                        <select id="f4Unidad">
+                            <option value="kg">Kilogramos (kg)</option>
+                            <option value="unidades">Costales / Unidades</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="f4Fecha">Fecha de recolección:</label>
+                        <input type="date" id="f4Fecha">
+                    </div>
+                    <div class="form-group">
+                        <label for="f4Destino">Aprovechamiento / Disposición:</label>
+                        <input type="text" id="f4Destino" placeholder="Ej: Compostaje local / Empresa recicladora">
+                    </div>
+                    <button type="button" class="btn-accion" onclick="registrarResiduo()">Guardar registro de residuo</button>
+                    <div id="f4Mensaje" class="mensaje-feedback"></div>
+                </div>
+
+                <div class="modulo-card">
+                    <h4>Control de residuos recolectados</h4>
+                    <div class="tabla-responsive">
+                        <table class="tabla-datos">
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Tipo de residuo</th>
+                                    <th>Cantidad</th>
+                                    <th>Destino</th>
+                                </tr>
+                            </thead>
+                            <tbody id="f4TablaBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FUNCIÓN 5: REPORTES Y ALERTAS -->
+        <div id="func5" class="tab-panel">
+            <div class="func-header reporte-top-bar">
+                <div>
+                    <h3>5. Reportes consolidados y centro de alertas</h3>
+                    <p>Resumen en tiempo real de consumo, desperdicio, residuos y situaciones que requieren atención inmediata.</p>
+                </div>
+                <button type="button" class="btn-secundario" onclick="cargarDatosDemo()">Cargar datos de ejemplo</button>
+            </div>
+
+            <!-- Centro de alertas activas -->
+            <div class="alertas-container">
+                <h4>Alertas activas del sistema</h4>
+                <div id="listaAlertasActivas" class="lista-alertas"></div>
+            </div>
+
+            <!-- Tarjetas de resumen global -->
+            <div class="reporte-kpis">
+                <div class="rep-kpi">
+                    <span>Inventario en bodega</span>
+                    <strong id="repInventario">0.0 kg</strong>
+                </div>
+                <div class="rep-kpi">
+                    <span>Consumo estimado total</span>
+                    <strong id="repConsumo">0.0 kg</strong>
+                </div>
+                <div class="rep-kpi">
+                    <span>Desperdicio detectado</span>
+                    <strong id="repDesperdicio">0.0 kg</strong>
+                </div>
+                <div class="rep-kpi">
+                    <span>Residuos gestionados</span>
+                    <strong id="repResiduos">0 registros</strong>
+                </div>
+            </div>
+
+            <!-- Gráficos comparativos -->
+            <div class="dos-columnas">
+                <div class="modulo-card">
+                    <h4>Gráfico: Distribución de purina (kg)</h4>
+                    <p class="texto-ayuda">Comparación entre alimento consumido por las aves, sobrante en comedero y desperdicio derramado.</p>
+                    <div id="graficoPurina" class="grafico-barras"></div>
+                </div>
+
+                <div class="modulo-card">
+                    <h4>Gráfico: Residuos registrados por categoría</h4>
+                    <p class="texto-ayuda">Volumen acumulado por tipo de residuo en el galpón.</p>
+                    <div id="graficoResiduos" class="grafico-barras"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>EcoFeed Avícola</strong> — Proyecto UPC • Tecnología para una avicultura más sostenible</p>
+    </footer>
+
+    <script>
+        // Estado inicial almacenado en localStorage
+        const STORAGE_KEY = 'ecofeed_avicola_datos_v1';
+
+        let estado = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {
+            movimientosPurina: [],
+            consumos: [],
+            desperdicios: [],
+            residuos: []
+        };
+
+        // Poner fecha de hoy por defecto en todos los inputs date
+        function inicializarFechas() {
+            const hoy = new Date().toISOString().split('T')[0];
+            ['f1Fecha', 'f2Fecha', 'f3Fecha', 'f4Fecha'].forEach(id => {
+                const input = document.getElementById(id);
+                if (input && !input.value) input.value = hoy;
+            });
+        }
+
+        function guardarEstado() {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(estado));
+            actualizarTodo();
+        }
+
+        function cambiarTab(tabId, boton) {
+            document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            boton.classList.add('active');
+        }
+
+        function mostrarFeedback(elementId, texto, tipo) {
+            const box = document.getElementById(elementId);
+            box.className = 'mensaje-feedback ' + tipo;
+            box.textContent = texto;
+            box.style.display = 'block';
+            setTimeout(() => { box.style.display = 'none'; }, 4500);
+        }
+
+        function obtenerEncargado() {
+            const val = document.getElementById('nombreEncargado').value.trim();
+            return val || 'Encargado';
+        }
+
+        function calcularInventarioActual() {
+            let totalIn = 0;
+            let totalOut = 0;
+            estado.movimientosPurina.forEach(m => {
+                if (m.tipo === 'entrada') totalIn += m.cantidad;
+                else totalOut += m.cantidad;
+            });
+            return { totalIn, totalOut, disponible: totalIn - totalOut };
+        }
+
+        // FUNCIÓN 1: CONTROL DE PURINA
+        function registrarMovimientoPurina() {
+            const fecha = document.getElementById('f1Fecha').value;
+            const tipo = document.getElementById('f1Tipo').value;
+            const cantidad = parseFloat(document.getElementById('f1Cantidad').value);
+            const nota = document.getElementById('f1Nota').value.trim() || 'Sin observación';
+
+            if (!fecha || isNaN(cantidad) || cantidad <= 0) {
+                mostrarFeedback('f1Mensaje', 'Ingresa una fecha y una cantidad válida mayor a 0 kg.', 'error');
+                return;
+            }
+
+            const inv = calcularInventarioActual();
+            if (tipo === 'salida' && cantidad > inv.disponible) {
+                mostrarFeedback('f1Mensaje', `Inventario insuficiente (${inv.disponible.toFixed(1)} kg disponibles). Registra primero el ingreso de purina.`, 'error');
+                return;
+            }
+
+            estado.movimientosPurina.unshift({
+                fecha,
+                tipo,
+                cantidad,
+                nota,
+                encargado: obtenerEncargado()
+            });
+
+            document.getElementById('f1Cantidad').value = '';
+            document.getElementById('f1Nota').value = '';
+            mostrarFeedback('f1Mensaje', 'Movimiento registrado e inventario actualizado correctamente.', 'exito');
+            guardarEstado();
+        }
+
+        // FUNCIÓN 2: MONITOREO DE CONSUMO
+        function registrarConsumo() {
+            const fecha = document.getElementById('f2Fecha').value;
+            const suministrado = parseFloat(document.getElementById('f2Suministrado').value);
+            const sobrante = parseFloat(document.getElementById('f2Sobrante').value);
+
+            if (!fecha || isNaN(suministrado) || suministrado <= 0 || isNaN(sobrante) || sobrante < 0) {
+                mostrarFeedback('f2Mensaje', 'Verifica los valores de alimento suministrado y sobrante.', 'error');
+                return;
+            }
+
+            if (sobrante > suministrado) {
+                mostrarFeedback('f2Mensaje', 'El alimento sobrante no puede ser mayor al suministrado.', 'error');
+                return;
+            }
+
+            const consumoEstimado = suministrado - sobrante;
+            const aprovechamiento = (consumoEstimado / suministrado) * 100;
+
+            estado.consumos.unshift({
+                fecha,
+                suministrado,
+                sobrante,
+                consumoEstimado,
+                aprovechamiento,
+                encargado: obtenerEncargado()
+            });
+
+            document.getElementById('f2Suministrado').value = '';
+            document.getElementById('f2Sobrante').value = '';
+            mostrarFeedback('f2Mensaje', `Consumo estimado registrado: ${consumoEstimado.toFixed(1)} kg (${aprovechamiento.toFixed(1)}% aprovechado).`, 'exito');
+            guardarEstado();
+        }
+
+        // FUNCIÓN 3: DETECCIÓN DE DESPERDICIOS
+        function registrarDesperdicio() {
+            const fecha = document.getElementById('f3Fecha').value;
+            const racion = parseFloat(document.getElementById('f3Racion').value);
+            const derramada = parseFloat(document.getElementById('f3Derramada').value);
+            const causa = document.getElementById('f3Causa').value;
+
+            if (!fecha || isNaN(racion) || racion <= 0 || isNaN(derramada) || derramada < 0) {
+                mostrarFeedback('f3Mensaje', 'Ingresa valores válidos para la ración y la purina derramada.', 'error');
+                return;
+            }
+
+            if (derramada > racion) {
+                mostrarFeedback('f3Mensaje', 'La purina derramada no puede superar la ración servida.', 'error');
+                return;
+            }
+
+            const porcentaje = (derramada / racion) * 100;
+            const critico = porcentaje > 5;
+
+            estado.desperdicios.unshift({
+                fecha,
+                racion,
+                derramada,
+                porcentaje,
+                causa,
+                critico,
+                encargado: obtenerEncargado()
+            });
+
+            document.getElementById('f3Racion').value = '';
+            document.getElementById('f3Derramada').value = '';
+
+            if (critico) {
+                mostrarFeedback('f3Mensaje', `¡ALERTA! Pérdida elevada detectada (${porcentaje.toFixed(1)}%). Se notificó en Reportes y Alertas.`, 'alerta');
+            } else {
+                mostrarFeedback('f3Mensaje', `Registro guardado. Pérdida del ${porcentaje.toFixed(1)}% dentro del límite aceptable.`, 'exito');
+            }
+            guardarEstado();
+        }
+
+        // FUNCIÓN 4: GESTIÓN DE RESIDUOS
+        function registrarResiduo() {
+            const tipo = document.getElementById('f4Tipo').value;
+            const cantidad = parseFloat(document.getElementById('f4Cantidad').value);
+            const unidad = document.getElementById('f4Unidad').value;
+            const fecha = document.getElementById('f4Fecha').value;
+            const destino = document.getElementById('f4Destino').value.trim() || 'Acopio temporal';
+
+            if (!fecha || isNaN(cantidad) || cantidad <= 0) {
+                mostrarFeedback('f4Mensaje', 'Ingresa una fecha y cantidad válida para el residuo.', 'error');
+                return;
+            }
+
+            estado.residuos.unshift({
+                tipo,
+                cantidad,
+                unidad,
+                fecha,
+                destino,
+                encargado: obtenerEncargado()
+            });
+
+            document.getElementById('f4Cantidad').value = '';
+            document.getElementById('f4Destino').value = '';
+            mostrarFeedback('f4Mensaje', 'Residuo registrado en el control ambiental del galpón.', 'exito');
+            guardarEstado();
+        }
+
+        // FUNCIÓN 5: ACTUALIZAR TABLAS, GRÁFICOS Y ALERTAS
+        function actualizarTodo() {
+            // 1. Actualizar inventario
+            const inv = calcularInventarioActual();
+            document.getElementById('inventarioDisplay').textContent = inv.disponible.toFixed(1) + ' kg';
+            document.getElementById('f1TotalIngresado').textContent = inv.totalIn.toFixed(1) + ' kg';
+            document.getElementById('f1TotalSuministrado').textContent = inv.totalOut.toFixed(1) + ' kg';
+            document.getElementById('f1Disponible').textContent = inv.disponible.toFixed(1) + ' kg';
+
+            const f1Body = document.getElementById('f1TablaBody');
+            f1Body.innerHTML = estado.movimientosPurina.length ? estado.movimientosPurina.map(m => `
+                <tr>
+                    <td>${m.fecha}</td>
+                    <td><span class="pill ${m.tipo === 'entrada' ? 'pill-ok' : 'pill-warn'}">${m.tipo === 'entrada' ? '+ Ingreso' : '- Suministro'}</span></td>
+                    <td><strong>${m.cantidad.toFixed(1)} kg</strong></td>
+                    <td>${m.encargado}</td>
+                </tr>
+            `).join('') : '<tr><td colspan="4" class="vacio">Sin movimientos registrados aún.</td></tr>';
+
+            // 2. Actualizar consumo
+            let totalConsumo = 0;
+            let sumaAprov = 0;
+            estado.consumos.forEach(c => {
+                totalConsumo += c.consumoEstimado;
+                sumaAprov += c.aprovechamiento;
+            });
+            const promAprov = estado.consumos.length ? (sumaAprov / estado.consumos.length) : 0;
+
+            document.getElementById('f2ConsumoTotal').textContent = totalConsumo.toFixed(1) + ' kg';
+            document.getElementById('f2EficienciaProm').textContent = promAprov.toFixed(1) + '%';
+
+            const f2Body = document.getElementById('f2TablaBody');
+            f2Body.innerHTML = estado.consumos.length ? estado.consumos.map(c => `
+                <tr>
+                    <td>${c.fecha}</td>
+                    <td>${c.suministrado.toFixed(1)} kg</td>
+                    <td>${c.sobrante.toFixed(1)} kg</td>
+                    <td><strong>${c.consumoEstimado.toFixed(1)} kg</strong></td>
+                    <td>${c.aprovechamiento.toFixed(1)}%</td>
+                </tr>
+            `).join('') : '<tr><td colspan="5" class="vacio">Sin registros de consumo aún.</td></tr>';
+
+            // 3. Actualizar desperdicios
+            let totalDesperdicio = 0;
+            let eventosCriticos = 0;
+            estado.desperdicios.forEach(d => {
+                totalDesperdicio += d.derramada;
+                if (d.critico) eventosCriticos++;
+            });
+
+            document.getElementById('f3TotalDesperdicio').textContent = totalDesperdicio.toFixed(1) + ' kg';
+            document.getElementById('f3EventosCriticos').textContent = eventosCriticos;
+
+            const f3Body = document.getElementById('f3TablaBody');
+            f3Body.innerHTML = estado.desperdicios.length ? estado.desperdicios.map(d => `
+                <tr>
+                    <td>${d.fecha}</td>
+                    <td>${d.derramada.toFixed(1)} kg</td>
+                    <td><strong>${d.porcentaje.toFixed(1)}%</strong></td>
+                    <td>${d.causa}</td>
+                    <td><span class="pill ${d.critico ? 'pill-danger' : 'pill-ok'}">${d.critico ? 'Alerta (>5%)' : 'Normal'}</span></td>
+                </tr>
+            `).join('') : '<tr><td colspan="5" class="vacio">Sin registros de desperdicio aún.</td></tr>';
+
+            // 4. Actualizar residuos
+            const f4Body = document.getElementById('f4TablaBody');
+            f4Body.innerHTML = estado.residuos.length ? estado.residuos.map(r => `
+                <tr>
+                    <td>${r.fecha}</td>
+                    <td>${r.tipo}</td>
+                    <td><strong>${r.cantidad} ${r.unidad}</strong></td>
+                    <td>${r.destino}</td>
+                </tr>
+            `).join('') : '<tr><td colspan="4" class="vacio">Sin residuos registrados aún.</td></tr>';
+
+            // 5. Actualizar Reportes, Gráficos y Alertas
+            document.getElementById('repInventario').textContent = inv.disponible.toFixed(1) + ' kg';
+            document.getElementById('repConsumo').textContent = totalConsumo.toFixed(1) + ' kg';
+            document.getElementById('repDesperdicio').textContent = totalDesperdicio.toFixed(1) + ' kg';
+            document.getElementById('repResiduos').textContent = estado.residuos.length + ' registros';
+
+            generarAlertas(inv.disponible, totalConsumo, totalDesperdicio);
+            renderizarGraficos(totalConsumo, totalDesperdicio);
+        }
+
+        function generarAlertas(disponible, totalConsumo, totalDesperdicio) {
+            const alertas = [];
+
+            if (disponible <= 50 && estado.movimientosPurina.length > 0) {
+                alertas.push({
+                    nivel: 'critica',
+                    titulo: 'Inventario bajo de purina en bodega',
+                    detalle: `Solo quedan ${disponible.toFixed(1)} kg disponibles. Programar pedido de reposición.`
+                });
+            }
+
+            estado.desperdicios.filter(d => d.critico).slice(0, 3).forEach(d => {
+                alertas.push({
+                    nivel: 'critica',
+                    titulo: `Desperdicio elevado detectado (${d.porcentaje.toFixed(1)}%) — ${d.fecha}`,
+                    detalle: `Se perdieron ${d.derramada.toFixed(1)} kg por "${d.causa}". Revisar calibración de comederos.`
+                });
+            });
+
+            const alimentoDeteriorado = estado.residuos.filter(r => r.tipo.includes('deteriorado'));
+            if (alimentoDeteriorado.length > 0) {
+                alertas.push({
+                    nivel: 'advertencia',
+                    titulo: 'Alimento deteriorado reportado',
+                    detalle: `Se registraron ${alimentoDeteriorado.length} eventos de purina dañada. Verificar humedad y sellado en bodega.`
+                });
+            }
+
+            const gallinaza = estado.residuos.filter(r => r.tipo.includes('Excrementos') || r.tipo.includes('Cama'));
+            if (gallinaza.length === 0 && estado.consumos.length > 0) {
+                alertas.push({
+                    nivel: 'advertencia',
+                    titulo: 'Sin registro reciente de recolección de cama / gallinaza',
+                    detalle: 'Recuerda registrar la limpieza periódica para evitar acumulación de amoníaco y humedad.'
+                });
+            }
+
+            document.getElementById('badgeAlertas').textContent = alertas.length;
+
+            const contenedor = document.getElementById('listaAlertasActivas');
+            if (!alertas.length) {
+                contenedor.innerHTML = '<div class="alerta-item ok"><strong>Todo en orden:</strong> No hay alertas críticas pendientes en el galpón.</div>';
+                return;
+            }
+
+            contenedor.innerHTML = alertas.map(a => `
+                <div class="alerta-item ${a.nivel}">
+                    <strong>${a.titulo}</strong>
+                    <p>${a.detalle}</p>
+                </div>
+            `).join('');
+        }
+
+        function renderizarGraficos(totalConsumo, totalDesperdicio) {
+            let totalSobrante = 0;
+            estado.consumos.forEach(c => { totalSobrante += c.sobrante; });
+
+            const maxPurina = Math.max(totalConsumo, totalSobrante, totalDesperdicio, 1);
+            const datosPurina = [
+                { label: 'Consumo estimado aves', valor: totalConsumo, clase: 'barra-verde' },
+                { label: 'Sobrante en comederos', valor: totalSobrante, clase: 'barra-amarilla' },
+                { label: 'Desperdicio derramado', valor: totalDesperdicio, clase: 'barra-roja' }
+            ];
+
+            document.getElementById('graficoPurina').innerHTML = datosPurina.map(item => `
+                <div class="barra-fila">
+                    <div class="barra-info">
+                        <span>${item.label}</span>
+                        <strong>${item.valor.toFixed(1)} kg</strong>
+                    </div>
+                    <div class="barra-fondo">
+                        <div class="barra-relleno ${item.clase}" style="width: ${(item.valor / maxPurina) * 100}%"></div>
+                    </div>
+                </div>
+            `).join('');
+
+            const categorias = [
+                'Empaques (costales plásticos)',
+                'Cama usada del galpón',
+                'Excrementos (gallinaza)',
+                'Alimento deteriorado'
+            ];
+
+            const totalesCat = categorias.map(cat => {
+                const suma = estado.residuos
+                    .filter(r => r.tipo === cat)
+                    .reduce((acc, r) => acc + r.cantidad, 0);
+                return { label: cat, valor: suma };
+            });
+
+            const maxRes = Math.max(...totalesCat.map(t => t.valor), 1);
+            document.getElementById('graficoResiduos').innerHTML = totalesCat.map(item => `
+                <div class="barra-fila">
+                    <div class="barra-info">
+                        <span>${item.label}</span>
+                        <strong>${item.valor.toFixed(1)}</strong>
+                    </div>
+                    <div class="barra-fondo">
+                        <div class="barra-relleno barra-verde" style="width: ${(item.valor / maxRes) * 100}%"></div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Botón rápido para probar el sistema en exposición
+        function cargarDatosDemo() {
+            const hoy = new Date().toISOString().split('T')[0];
+            estado = {
+                movimientosPurina: [
+                    { fecha: hoy, tipo: 'salida', cantidad: 120, nota: 'Suministro turno día', encargado: 'Fabián Barbosa' },
+                    { fecha: hoy, tipo: 'entrada', cantidad: 500, nota: 'Ingreso lote purina engorde', encargado: 'Fabián Barbosa' }
+                ],
+                consumos: [
+                    { fecha: hoy, suministrado: 120, sobrante: 7.5, consumoEstimado: 112.5, aprovechamiento: 93.8, encargado: 'Fabián Barbosa' }
+                ],
+                desperdicios: [
+                    { fecha: hoy, racion: 120, derramada: 7.2, porcentaje: 6.0, causa: 'Sobrellenado de comedero', critico: true, encargado: 'Fabián Barbosa' }
+                ],
+                residuos: [
+                    { tipo: 'Empaques (costales plásticos)', cantidad: 12, unidad: 'unidades', fecha: hoy, destino: 'Empresa recicladora local', encargado: 'Fabián Barbosa' },
+                    { tipo: 'Excrementos (gallinaza)', cantidad: 85, unidad: 'kg', fecha: hoy, destino: 'Compostaje agrícola', encargado: 'Fabián Barbosa' }
+                ]
+            };
+            guardarEstado();
+        }
+
+        inicializarFechas();
+        actualizarTodo();
+    </script>
 
 </body>
 </html>
